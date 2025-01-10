@@ -11,7 +11,7 @@ import (
 
 func greetingHandler(rw http.ResponseWriter, r *http.Request) {
 	rw.WriteHeader(http.StatusOK)
-	fmt.Fprintf(rw, "Hello ")
+	fmt.Fprintf(rw, "Hello Sahej")
 }
 
 func main() {
